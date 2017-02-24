@@ -1,0 +1,26 @@
+{
+  "name": "nodejs-blogger",
+  "version": "1.0.0",
+  "description": "Hello.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gaurav-idyllic/nodejs-blogger.git"
+  },
+  "author": "Gaurav Mamidwar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gaurav-idyllic/nodejs-blogger/issues"
+  },
+  "homepage": "https://github.com/gaurav-idyllic/nodejs-blogger#readme",
+  "dependencies": {
+    "ejs": "^2.5.5",
+    "express": "^4.14.1",
+    "morgan": "^1.8.0",
+    "nodemon": "^1.11.0"
+  }
+}

@@ -1,0 +1,13 @@
+<a class="anchor_class" href="/new">Do you want to write a new Blog?</a>
+
+<% blogs.forEach(function(element) { %>
+  <div class='container col-lg-12 blog_div'>
+    <div class='col-lg-12'>
+      <div class='col-lg-4'>Your Name : <%= element.name %></div>
+    </div>
+    <div class='col-lg-12'>
+      <div class='col-lg-12'>Content : <%= element.content %></div>
+    </div>
+  </div>
+  <br />
+<% }); %>
