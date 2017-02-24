@@ -20,6 +20,6 @@ app.use(function(req, res){
   res.status(200).send('page not found.');
 });
 
-http.createServer(app).listen(port, function(){
-  console.log("Started server on port: 3003");
+app.listen(port, function(){
+  console.log("Started server on port: 3000");
 })
