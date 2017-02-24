@@ -5,7 +5,7 @@ var morgan = require('morgan');
 var routes = require('./routes/route');
 var blogs = [];
 app.locals.blogs = blogs;
-var port = (process.env.PORT || 3000);
+var port = (process.env.PORT || 3003);
 
 app.set('views', path.resolve(__dirname, 'views'));
 app.set("view engine", "ejs");
@@ -21,5 +21,5 @@ app.use(function(req, res){
 });
 
 app.listen(port, function(){
-  console.log("Started server on port: 3000");
+  console.log("Started server on port: 3003");
 })
