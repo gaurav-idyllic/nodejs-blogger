@@ -20,3 +20,7 @@ app.use(function(req, res){
 });
 
 app.listen(3003);
+
+http.createServer(app).listen(port, function(){
+  console.log("Started server on port: 3003");
+})
